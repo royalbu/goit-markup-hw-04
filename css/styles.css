@@ -113,8 +113,12 @@ ul {
 
 /*Begin 1 section*/
 .sect-one {
-    background-image: url("./images/Dark-bg.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 188px 0;
+    max-width: 1440px;
 }
 
 .sect-one-title {
@@ -147,6 +151,7 @@ ul {
 .sect-one-button:hover,
 .sect-one-button:focus {
     background-color: #404BBF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*End of Section1*/
