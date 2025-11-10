@@ -146,6 +146,7 @@ ul {
     border: none;
     border-radius: 4px;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sect-one-button:hover,
@@ -190,6 +191,17 @@ ul {
 
 .sect-two-li {
     width: calc((100% - 72px) / 4);
+}
+
+.sect-two-div-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 
 .sect-two-p {
