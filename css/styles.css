@@ -152,7 +152,6 @@ ul {
 .sect-one-button:hover,
 .sect-one-button:focus {
     background-color: #404BBF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*End of Section1*/
@@ -248,6 +247,7 @@ ul {
     box-shadow: 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -280,8 +280,8 @@ ul {
 }
 
 .sect-thr-soc-li {
-    width: 40px;
-    height: 40px;
+    width: 40;
+    height: 40;
 }
 
 .soc-link {
@@ -300,8 +300,6 @@ ul {
 }
 
 .sect-thr-icon {
-    width: 16px;
-    height: 16px;
     fill: #f4f4fd;
 }
 
