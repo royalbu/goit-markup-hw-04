@@ -335,6 +335,7 @@ ul {
 
 .sect-four-li {
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sect-four-li:hover {
@@ -344,7 +345,7 @@ ul {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sect-four-li .p:hover {
+.sect-four-p-hidden {
     transform: translateY(0%);
 }
 
