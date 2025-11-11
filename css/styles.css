@@ -132,6 +132,7 @@ ul {
     background-size: cover;
     padding: 188px 0;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .sect-one-title {
@@ -311,7 +312,15 @@ ul {
     fill: #f4f4fd;
 }
 
+
+
+
+
+/* End of section three*/
 /* Section four*/
+
+
+
 
 .sect-four {
     padding: 120px 0 120px 0;
@@ -339,7 +348,7 @@ ul {
     transform: translateY(0%);
 }
 
-.sect-four-div-img {
+.sect-four-overlay {
     position: relative;
     overflow: hidden;
 }
