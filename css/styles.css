@@ -344,6 +344,9 @@ ul {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sect-four-li:hover p {
     transform: translateY(0%);
 }
 
@@ -353,7 +356,7 @@ ul {
 
 .sect-four-img {
     position: relative;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 .sect-four-img:hover {
