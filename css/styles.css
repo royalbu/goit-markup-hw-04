@@ -348,6 +348,11 @@ ul {
     transform: translateY(0%);
 }
 
+.sect-four-img {
+    position: relative;
+    overflow: hidden;
+}
+
 .sect-four-overlay {
     position: relative;
     overflow: hidden;
