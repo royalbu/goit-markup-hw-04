@@ -78,7 +78,7 @@ ul {
 
 }
 
-.header-li-link::after {
+.nav-li:first-child .header-li-link::after {
     content: "";
     width: 100%;
     display: block;
@@ -365,7 +365,7 @@ ul {
     overflow: hidden;
 }
 
-.sect-four-img:hover {
+.sect-four-img:hover p {
     transform: translateY(0%);
 }
 
