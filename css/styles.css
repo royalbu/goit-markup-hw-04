@@ -132,7 +132,7 @@ ul {
 
 /*Begin 1 section*/
 .sect-one {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/hero-image.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
